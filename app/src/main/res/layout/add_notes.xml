@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="400dp"
+    android:background="@drawable/bg_alert"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/head"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:hint="Заголовок"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="top"
+        android:hint="Текст"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#F700FF"
+            android:text="Добавить"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="#F700FF"
+            android:text="Отменить"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</LinearLayout>
